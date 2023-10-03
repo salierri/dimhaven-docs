@@ -1,3 +1,2 @@
-# Headline
+# Dimhaven docs
 
-> An awesome project.
