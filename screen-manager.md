@@ -30,7 +30,7 @@ ScreenManager.NewScreenConsumer("inventory", setActive);
 
 It has an automatic function that watches the key press if it is specified in `InputManager` with the same name used here.
 
-## `master: true`
+### `master: true`
 
 The subscription has an additional option, master mode, that makes it so the consumer can only be turned off by its own key, and not other keys.
 
