@@ -1,6 +1,6 @@
 - Dani
 
- - [Trigger-Response System](trigger-response.md)
+  - [Trigger-Response System](trigger-response.md)
 
 - Systems
 

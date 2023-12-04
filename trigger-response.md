@@ -1,6 +1,6 @@
 # Trigger-Response System
 
-## Two-part animation response (Paused door-handle animations)
+## Two-part animation response (paused door-handle animations)
 
 ##### Note: It only works with `InteractTrigger` components, as it uses the drag-system
 
