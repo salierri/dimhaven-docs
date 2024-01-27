@@ -1,13 +1,16 @@
-- Dani
+- Manual (Dani)
 
+  - [General Stuff](general.md)
   - [Trigger-Response System](trigger-response.md)
+  - [Independent Behaviours](behaviours.md)
+  - [Puzzle System (Half-finished)](puzzle-system.md)
 
-- Systems
+- Script Reference (Ábi)
+
+ - Systems
 
   - [Screen Manager](screen-manager.md)
 
-- Helpers
+ - Helpers
 
   - [Helpers](helpers.md)
-  - [Timeout](helpers.md)
-  - [Animation Controller](helpers.md)
