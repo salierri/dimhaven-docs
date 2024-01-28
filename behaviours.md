@@ -2,9 +2,9 @@
 
 ## Animation Delay
 
-The script has to be on the same GameObject as the Animation component.
+> Self-explanatory
 
-If `Random` is selected, the delay will be from `MinimumRandomDelay` to `Delay`.
+The script has to be on the same GameObject as the Animation component.
 
 The `Speed` variable is transferred to the animation, so it can be used to play the same animation at different speed on different GameObjects.
 
