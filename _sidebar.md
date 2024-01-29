@@ -7,10 +7,10 @@
 
 - Script Reference (Ábi)
 
- - Systems
+  - Systems
 
-  - [Screen Manager](screen-manager.md)
+    - [Screen Manager](screen-manager.md)
 
- - Helpers
+  - Helpers
 
-  - [Helpers](helpers.md)
+    - [Helpers](helpers.md)
