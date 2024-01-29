@@ -32,14 +32,14 @@ Needs a 'trigger' Collider on the same GameObject
 ## AnimationResponse
 
 - Automatically sets up the Animation if on the same GameObject
-- If `OffLoop` is present, it will start on scene start
+- If `OffLoop` is present, it will start playing on scene start
 - `FadeTime` will effect all animation fades, loops included
 
 ## Two-part animation response
 
 > Paused door-handle animations with a distinct click and drag part
 
-##### Note: It only works with `InteractTrigger` components, as it uses the drag-system
+**Note: It only works with `InteractTrigger` components, as it uses the drag-system**
 
 ### Setup
 
@@ -53,7 +53,7 @@ Add the Animation Events to the used animations, and use the following methods:
 - `ForwardPause()` - Same as `Pause()`, but only happens when the animation is playing forward
 - `ReversePause()` - Same as `Pause()`, but only happens when the animation is playing backward
 
-##### So for a classic open-close door setup, two events has to be added, a `ForwardPause` and a `ReversePause` after the corresponding handle presses.
+**So for a classic open-close door setup, two events has to be added, a `ForwardPause` and a `ReversePause` after the corresponding handle presses.**
 
 Lastly, add the Animation GameObject to the `InteractTrigger` `Responses` array normally, and it should be good to go!
 

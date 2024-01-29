@@ -10,7 +10,6 @@
 
 - Movement blockers / Canvases and Footstep zones quick toggle
 - `Reverse Negative Box Colliders` - If you see a `BoxColliders does not support negative scale or size.` warning, press this.
-- `Group Selected`
 
 ### Grouping
 

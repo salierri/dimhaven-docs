@@ -8,9 +8,7 @@
 - Script Reference (Ábi)
 
   - Systems
-
     - [Screen Manager](screen-manager.md)
 
   - Helpers
-
     - [Helpers](helpers.md)
