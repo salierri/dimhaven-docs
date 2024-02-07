@@ -12,6 +12,8 @@ Population rules:
 - If the GameObject has **exactly one** StudioEventEmitter and no FmodPulseResponse, it gets one.
 - If after all these, the GameObject still has no Response attached, it gets a ToggleResponse with the default state being the GameObject's current state.
 
+**Important: Two triggers with the exact same name and hierarchy path should not exist, as save-load uses the path to differentiate between triggers**
+
 ## InteractTrigger
 
 > The main entry point, "Trigger on click"
@@ -72,3 +74,11 @@ If only used for Position/Rotation, the other one still needs to be setup to its
 ## ToggleResponse
 
 > Turns the GameObject on/off
+
+## AutosaveResponse
+
+> Triggers an Autosave or a Chapter save
+
+Autosaves will always save on Slot0, and will overwrite the last autosave, while chapter saves will create a new slot and can only be overwritten manually
+
+The `ChapterTextKey` should be a key from the locales yaml, located under `chapter_autosaves`
