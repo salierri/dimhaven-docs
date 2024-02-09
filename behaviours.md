@@ -105,3 +105,11 @@ Currently only works with the **first** parameter of the target Emitter, this sh
 > Feature-rich Transform rotator
 
 The `Axis` and `UpAxis` settings probably contain bugs, if they need to be used, contact Geri :D
+
+## Custom CineCam Fade
+
+> A more convenient way of handling Cinemachine Blends
+
+Has to be next to a `CinemachineVirtualCamera`, will apply the selected fade values globally to the Main Camera `CinemachineBrain`
+
+**Note: Blends are handled by GameObject name, so if custom blends are in use, the CineCam GameObject should have a distinct name**

@@ -12,6 +12,13 @@ Population rules:
 - If the GameObject has **exactly one** StudioEventEmitter and no FmodPulseResponse, it gets one.
 - If after all these, the GameObject still has no Response attached, it gets a ToggleResponse with the default state being the GameObject's current state.
 
+### Trigger Loading Rules
+
+- A Trigger that is On will have its Animation scrolled to its end.
+- A Trigger that is Off, PingPong, and has a `ReverseAnimation` will have the `ReverseAnimation` scrolled to its end.
+- A Trigger that is Off, PingPong, and does not have a `ReverseAnimation` will have the default animation scrolled to its beggining.
+- A Trigger that is Off, and _not_ PingPong will be left as is.
+
 **Important: Two triggers with the exact same name and hierarchy path should not exist, as save-load uses the path to differentiate between triggers**
 
 ## InteractTrigger
