@@ -2,7 +2,7 @@
 
 ## The fundamentals
 
-Triggers and Responses as MonoBehaviours, triggers can trigger and anti-trigger based on a player action (Click or walk into a collider)
+Triggers and Responses as MonoBehaviours, triggers can trigger and anti-trigger based on a player action (Click or walk into/out of a collider)
 
 Responses does not need to be setup in most cases, as Triggers only need GameObjects as responses, and if they find an object without a Response, they will try to populate it with the appropriate one.
 
@@ -12,7 +12,12 @@ Population rules:
 - If the GameObject has **exactly one** StudioEventEmitter and no FmodPulseResponse, it gets one.
 - If after all these, the GameObject still has no Response attached, it gets a ToggleResponse with the default state being the GameObject's current state.
 
-### Trigger Loading Rules
+And also:
+- If the Trigger's own GameObject has a Response script, it will be automatically included in the responses.
+
+_So in short: if a Response does something very usual, it doesn't need to be added manually, but it will be added on scene start_
+
+### Trigger Load Game Rules
 
 - A Trigger that is On will have its Animation scrolled to its end.
 - A Trigger that is Off, PingPong, and has a `ReverseAnimation` will have the `ReverseAnimation` scrolled to its end.
@@ -89,3 +94,9 @@ If only used for Position/Rotation, the other one still needs to be setup to its
 Autosaves will always save on Slot0, and will overwrite the last autosave, while chapter saves will create a new slot and can only be overwritten manually
 
 The `ChapterTextKey` should be a key from the locales yaml, located under `chapter_autosaves`
+
+## HandAnimResponse
+
+> Plays an animation on `/Main Camera/emily_hands` if part of the animation name matches
+
+`HandAnimNameSnippet` can be anywhere in the animation name, ex. "seagull" will match "emily_hands_seagull_scare_1"
