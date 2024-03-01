@@ -12,3 +12,7 @@
 
   - Helpers
     - [Helpers](helpers.md)
+
+- Programming Notes (Geri)
+
+  - [Notes](programming-notes.md)
