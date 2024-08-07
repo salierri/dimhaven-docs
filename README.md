@@ -2,4 +2,4 @@
 
 Dev docs for the game Dimhaven - Enigmas.
 
-May contain spoilers, dont peak >:(
+May contain spoilers, dont peek >:(
