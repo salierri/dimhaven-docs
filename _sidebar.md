@@ -15,4 +15,5 @@
 
 - Programming Notes (Geri)
 
-  - [Notes](programming-notes.md)
+  - [Systems](systems-notes.md)
+  - [Procedures](procedures-notes.md)
