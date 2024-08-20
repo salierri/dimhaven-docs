@@ -17,3 +17,4 @@
 
   - [Systems](systems-notes.md)
   - [Procedures](procedures-notes.md)
+  - [Optimalization](optimalization.md)
