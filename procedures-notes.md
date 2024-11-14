@@ -24,5 +24,6 @@
 
 #### Upload
 
-- Zip everything one-by-one, on Windows and Linux, the whole folder, and on Mac, the .app folder
+- Zip everything one-by-one, on Windows and Linux, the contents of the folder, and on Mac, the .app folder
 - Upload to steam via HTTP (https://partner.steamgames.com/apps/depotuploads/{appid})
+- **Check build on Steam!**
