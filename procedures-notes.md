@@ -44,9 +44,9 @@
 - PS Unity fórumról leszedni az InputSystem packaget (legújabbat), és behúzni package managerből custom tarballként
 - Unitybe behúzni az NP configot (bemásolni és Player Settingsben referálni), legyártani a param.json-t és matchelni a kettőt
 
-Üres projekt done, jöjjenek a hibák!
+#### Üres projekt done, jöjjenek a hibák!
 
-- FMOD accountot csinálni _ugyanazzal az emaillel mint a PS account_, igényelni projektet és összekötni a PS accal (1 nap válaszidő)
+- FMOD accountot csinálni __ugyanazzal az emaillel mint a PS account__, igényelni projektet és összekötni a PS accal (1 nap válaszidő)
 - FMOD-ról leszedni a PS FMOD plugint, behúzni unitybe
 - Kódból `Keyboard.current` és `Mouse.current` referenciákat kipurgálni (legalábbis checkolni), ezek consoleon `null`-ok lesznek
 - Figyelni rá hogy az NP config for whatever reason lepotyog és néha vissza kell húzni
