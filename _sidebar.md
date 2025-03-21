@@ -16,5 +16,9 @@
 - Programming Notes (Geri)
 
   - [Systems](systems-notes.md)
-  - [Procedures](procedures-notes.md)
   - [Optimalization](optimalization.md)
+
+  - Procedures
+    - [Steam Build Checklist](steam-build.md)
+    - [PlayStation Porting](ps-porting.md)
+    - [Fmod Version Upgrade](fmod-upgrade.md)
