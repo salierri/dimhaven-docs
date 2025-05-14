@@ -1,13 +1,23 @@
 # Steam build checklist
 
-#### Preparations
+#### Before big build
 
 - Bake Occlusion Culling
 - Quick profiling to avoid performance bugs
 - _Play_ and check no Errors and Warnings
+
+#### Generic Preparations
+
+- Check `PROGRAM`, No Cheats and Dev Modes are enabled
 - Check Project Settings/Player/Resolution and Presentation/Unity Splash Screen **OFF**
 - Check Build settings for all scenes added (and no useless scenes added)
 - Check **NO** Development Build
+
+##### Demo Preparations
+
+- Check **both** `END_COLLIDER` gameobjects are in place (on the footpath)
+- Check `PROGRAM`, Demo Build is enabled
+- `landing_photo_challenge_leaflet_CINECAM` gameobject is **OFF**
 
 #### Build
 
