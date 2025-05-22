@@ -1,4 +1,4 @@
-# Puzzle System (Half-finished)
+# Puzzle System (Basic implementation)
 
 ## The fundamentals
 

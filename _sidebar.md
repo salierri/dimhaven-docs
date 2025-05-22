@@ -3,7 +3,8 @@
   - [General Stuff](general.md)
   - [Trigger-Response System](trigger-response.md)
   - [Independent Behaviours](behaviours.md)
-  - [Puzzle System (Half-finished)](puzzle-system.md)
+  - [Puzzle System](puzzle-system.md)
+  - [Dialogues](dialogues.md)
 
 - Script Reference (Ábi)
 
