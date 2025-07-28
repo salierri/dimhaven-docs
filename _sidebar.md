@@ -1,6 +1,7 @@
 - Manual (Dani)
 
   - [General Stuff](general.md)
+  - [Layers](layers.md)
   - [Trigger-Response System](trigger-response.md)
   - [Independent Behaviours](behaviours.md)
   - [Puzzle System](puzzle-system.md)
