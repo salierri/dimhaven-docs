@@ -10,6 +10,7 @@
 
 - Check `PROGRAM`, No Cheats and Dev Modes are enabled
 - Check `PLAYER` position, should be standing on the landing platform (to avoid additional sound effects during start anim)
+- Check OPS/Obfuscator/Settings/Enable Obfuscation **ON**
 - Check Project Settings/Player/Resolution and Presentation/Unity Splash Screen **OFF**
 - Check Build settings for all scenes added (and no useless scenes added)
 - Check **NO** Development Build
