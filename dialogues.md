@@ -11,7 +11,9 @@ One FMOD event per line
 The event name for a given line is the first 25 characters, following these rules:
 - If after 25 characters we are in the middle of a word, we extend the name to the end of that word
 - If the 25th character is a space, we remove that and the name will be 24 characters long
-- If there are multiple lines with the same first 25 characters, the event name has to be specified using Extra Variables (__currently unimplemented, notify me if it happens :D__)
+- If there are multiple lines with the same first 25 characters, name them arbitrarily and notify Geri
+- **After** Applying the previous rules, remove any '?', ':' and '"' character from the name
+- If **after** all of this, the name begins with a '.', add a '_' to the beginning
 
 #### NPC tagging
 
