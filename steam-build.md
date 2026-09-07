@@ -10,8 +10,8 @@
 
 - Check `PROGRAM`, No Cheats and Dev Modes are enabled
 - Check `PLAYER` position, should be standing on the landing platform (to avoid additional sound effects during start anim)
-- Check OPS/Obfuscator/Settings/Enable Obfuscation **ON**
-- Check Project Settings/Player/Resolution and Presentation/Unity Splash Screen **OFF**
+- Check `LIGHT_AMBIENCES`, click `la_daytime`
+- Check OPS/Obfuscator/Settings/Enable Obfuscation **ON** (we don't really do this anymore to get more useful logging)
 - Check Build settings for all scenes added (and no useless scenes added)
 - Check **NO** Development Build
 
@@ -19,7 +19,6 @@
 
 - Check **both** `END_COLLIDER` gameobjects are in place (on the footpath)
 - Check `PROGRAM`, Demo Build is enabled
-- `landing_photo_challenge_leaflet_CINECAM` gameobject is **OFF**
 
 #### Build
 
