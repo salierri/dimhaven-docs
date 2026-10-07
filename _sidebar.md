@@ -22,4 +22,4 @@
     - [PlayStation Porting](ps-porting.md)
     - [Fmod Version Upgrade](fmod-upgrade.md)
 
-- [Quick-start Guide (Lynxbyte)] (quickstart.md)
+- [Quick-start Guide (Lynxbyte)](quickstart.md)

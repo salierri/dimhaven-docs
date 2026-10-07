@@ -14,7 +14,7 @@
 
 ## Most useful console commands
 
-- `unlimitedpower` or `ulp` - Toggles energy in the areas that require energy. In every area, the player has to setup power, but testing optimalization requires lights, this is a must-have command for profiling.
+- `unlimitedpower` or `ulp` - Toggles energy in the areas that require energy. In every area, the player has to setup power, but testing performance requires lights, this is a must-have command for profiling.
 
 - `showblockers` - enables visual for blocker colliders, useful for debugging out-of-bounds
 
