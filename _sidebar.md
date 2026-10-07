@@ -1,4 +1,4 @@
-- Manual (Dani)
+- Artist Manual (Dani)
 
   - [General Stuff](general.md)
   - [Layers](layers.md)
@@ -12,9 +12,6 @@
   - Systems
     - [Screen Manager](screen-manager.md)
 
-  - Helpers
-    - [Helpers](helpers.md)
-
 - Programming Notes (Geri)
 
   - [Systems](systems-notes.md)
@@ -24,3 +21,5 @@
     - [Steam Build Checklist](steam-build.md)
     - [PlayStation Porting](ps-porting.md)
     - [Fmod Version Upgrade](fmod-upgrade.md)
+
+- [Quick-start Guide (Lynxbyte)] (quickstart.md)
