@@ -21,5 +21,6 @@
     - [Steam Build Checklist](steam-build.md)
     - [PlayStation Porting](ps-porting.md)
     - [Fmod Version Upgrade](fmod-upgrade.md)
+    - [Epic Integration](epic-integration.md)
 
 - [Quick-start Guide (Lynxbyte)](quickstart.md)
